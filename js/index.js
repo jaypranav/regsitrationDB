@@ -50,8 +50,10 @@ var app = {
 
 jQuery( document ).ready( function($) {
 	
+	
 	$(document).on('submit', "#register", function(e)
 	{
+		/*
 		var fname = document.getElementById('fname').textContent;
 		var lname = document.getElementById('lname').textContent;
 		var dob = document.getElementById('dob').textContent;
@@ -73,6 +75,9 @@ jQuery( document ).ready( function($) {
 			}
 			
 			});
+			*/
+			
+			$('div#update-status-txt').text("IN JS PAGE");
         
 	});
 	
