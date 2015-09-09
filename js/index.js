@@ -78,6 +78,7 @@ jQuery( document ).ready( function($) {
 			*/
 			
 			$('div#update-status-txt').text("IN JS PAGE");
+			e.preventDefault();
         
 	});
 	
